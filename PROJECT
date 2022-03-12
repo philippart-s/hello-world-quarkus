@@ -1,0 +1,12 @@
+domain: fr.wilda
+layout:
+- quarkus.javaoperatorsdk.io/v1-alpha
+projectName: hello-world-quarkus
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: fr.wilda
+  kind: HelloWorld
+  version: v1
+version: "3"
